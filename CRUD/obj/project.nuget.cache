@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "X7JLBBg/BCAlt7mf1MEO9dYowcSz2kzig6BCROO4dhLa2N7PzYJPaXjW61umzPsAeRUVR/wowZ+z+WGFDx9LBA==",
+  "dgSpecHash": "gorE4Wx+OYBAvz9sSubd6KvWszIrFt4x2xmkk0L3qCs+RJzhp3xft3LTX7fkFQ/ax3JzbcYZZx4h7dDQt2CwKQ==",
   "success": true,
   "projectFilePath": "D:\\Training Projects\\POC\\CRUD\\CRUD.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\yogesh.gaur\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.1\\microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",
+    "C:\\Users\\yogesh.gaur\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\yogesh.gaur\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\yogesh.gaur\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\yogesh.gaur\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\yogesh.gaur\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\yogesh.gaur\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
   "logs": []
 }
