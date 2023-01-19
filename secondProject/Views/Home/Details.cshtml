@@ -1,0 +1,15 @@
+@model secondProject.Models.UserModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="card mx-auto mt-5 bg-secondary" style="width:38rem;">
+  <div class="card-body">
+    <h5 class="card-title text-light text-center mb-3">User Details</h5>
+    <input type="text" name="firstName" class="form-control mb-3" value=@Model.firstName>
+    <input type="text" name="middlename"class="form-control mb-3" value=@Model.middleName>
+    <input type="text" name="lastName" class="form-control mb-3" value=@Model.lastName>
+  </div>
+    <button type="submit" class="btn btn-primary w-50 mx-auto mb-3">Submit Data</button>
+</div>

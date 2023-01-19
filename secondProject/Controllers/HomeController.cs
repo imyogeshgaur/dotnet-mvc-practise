@@ -29,13 +29,30 @@ public class HomeController : Controller
         return View();
     }
     
+    public IActionResult Details()
+    {
+        var detaisOfUser = GetData();
+        return View(detaisOfUser);
+    }
+
     [HttpPost]
 
     public string PostData(){
-        string firstName = Request.Form["firstName"];
-        string middleName = Request.Form["middleName"];
-        string lastName = Request.Form["lastName"];
+        string? firstName = Request.Form["firstName"];
+        string? middleName = Request.Form["middleName"];
+        string? lastName = Request.Form["lastName"];
 
        return "First Name is : "+ firstName +" Middle Name is : " + middleName +" Last Name is : " + lastName;
     }
+
+    [HttpGet]
+
+    public UserModel GetData(){
+        return new UserModel(){
+            firstName = "Yogesh",
+            middleName = "",
+            lastName = "Gaur"
+        };
+    }
+    
 }
