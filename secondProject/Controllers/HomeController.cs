@@ -35,14 +35,22 @@ public class HomeController : Controller
         return View(detaisOfUser);
     }
 
+    public IActionResult Success()
+    {
+        return View();
+    }
+
     [HttpPost]
 
-    public string PostData(){
+    public ActionResult PostData(){
         string? firstName = Request.Form["firstName"];
         string? middleName = Request.Form["middleName"];
         string? lastName = Request.Form["lastName"];
 
-       return "First Name is : "+ firstName +" Middle Name is : " + middleName +" Last Name is : " + lastName;
+        if(ModelState.IsValid){
+            return View("Success");
+        }
+        return View("Success");
     }
 
     [HttpGet]
